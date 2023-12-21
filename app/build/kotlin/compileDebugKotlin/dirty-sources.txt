@@ -1,0 +1,9 @@
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\Bantuan.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\Deteksi.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\DeteksiDariGaleri.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\Klasifikasi.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\KlasifikasiDariGaleri.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\MainActivity.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\Pendeteksi.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\SplashScreen.kt
+D:\Kuliah\Skripskuy\Project\Clasification Plant Disease\Plant-disease-master\Aplikasi Android\Android Studio\MobileNet\app\src\main\java\com\tflite\DeteksipenyakittanamanMn\Tentang.kt
