@@ -19,7 +19,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="times"
-            android:text="1. Cara Kerja Aplikasi"
+            android:text="Cara Kerja Aplikasi"
             android:textColor="#009688"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -33,7 +33,8 @@
             android:background="#008B3535"
             android:lineSpacingMultiplier="1"
             android:text="@string/content_work"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -43,7 +44,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="times"
-            android:text="2. Cara Menggunakan"
+            android:text="Cara Menggunakan"
             android:textColor="#009688"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -74,7 +75,8 @@
                     android:layout_weight="1"
                     android:text="@string/content_step_1"
                     android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
             </TableRow>
 
             <TableRow
@@ -96,7 +98,8 @@
                     android:layout_weight="1"
                     android:text="@string/content_step_2"
                     android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
             </TableRow>
 
             <TableRow
@@ -118,7 +121,8 @@
                     android:layout_weight="1"
                     android:text="@string/content_step_3"
                     android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
             </TableRow>
 
             <TableRow
@@ -140,7 +144,8 @@
                     android:layout_weight="1"
                     android:text="@string/content_step_4"
                     android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
             </TableRow>
 
             <TableRow
@@ -162,18 +167,9 @@
                     android:layout_weight="1"
                     android:text="@string/content_step_5"
                     android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
             </TableRow>
         </TableLayout>
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="center"
-            android:inputType="textPostalAddress"
-            android:text="Islahul Anwar"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
     </LinearLayout>
 </ScrollView>

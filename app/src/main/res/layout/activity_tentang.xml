@@ -43,7 +43,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginRight="16dp"
                     android:text="Plant Diseases Versi 1.0 "
                     android:textColor="#000099"
@@ -62,13 +62,14 @@
             android:lineSpacingMultiplier="1"
             android:linksClickable="true"
             android:text="@string/content_about"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:justificationMode="inter_word"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Author : Islahul Anwar"
+            android:text="@string/me"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="parent"

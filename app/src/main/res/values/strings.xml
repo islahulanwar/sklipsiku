@@ -19,5 +19,6 @@
     <string name="display_result"><b>Hasil Prediksi</b>\n</string>
     <string name="hints">Pilih Gambar Lalu Klik DETEKSI</string>
     <string name="namaapp"><b>Plant Disesases 1.0</b></string>
+    <string name="me"><b><u>Islahul Anwar</u></b></string>
     <string name="content_about">Aplikasi Plant Diseases dapat digunakan bagi para petani, peneliti dan lainnya dalam mengidentifikasi awal pada penyakit tanaman.</string>
 </resources>
