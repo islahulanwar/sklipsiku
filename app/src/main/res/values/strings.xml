@@ -6,7 +6,7 @@
     <string name="bantuan">Bantuan</string>
     <string name="content_work">Aplikasi ini bekerja dengan cara mengambil citra/gambar obyek menggunakan kamera <i>smartphone</i> atau mengimpor gambar dari galeri foto yang sudah tersimpan.  Kemudian dilakukan identifikasi penyakit tanaman berdasrkan citra daun menggunakan metode <i>Deep Learning</i></string>
     <string name="content_step_1">Buka Aplikasi Plant Diseases</string>
-    <string name="content_step_2">Memilih metode yang digunakan, <b>IDENTIFIKASI DENGAN KAMERA</b>atau <b>IDENTIFIKASI DARI GALERI</b></string>
+    <string name="content_step_2">Memilih metode yang digunakan, <b>IDENTIFIKASI DENGAN KAMERA</b> atau <b>IDENTIFIKASI DARI GALERI</b></string>
     <string name="content_step_3"><b>IDENTIFIKASI DENGAN KAMERA</b> penggunanaannya dengan cara mengambil gambar secara langsung pada obyek yang akan di identifikasi, lalu tekan tombol "DETEK" untuk identifikasi</string>
     <string name="content_step_4"><b>IDENTIFIKASI DARI GALERI</b> penggunaannya dengan cara menekan tombol "PILIH GAMBAR" lalu pilih foto yang terdapat pada gallery untuk identifikasi </string>
     <string name="content_step_5">Hasil dari kedua identifikasi akan muncul dengan nilai probabilitasnya, serta waktu yang dibutuhkan untuk identifikasi juga di tampilkan dalam satuan ms</string>
