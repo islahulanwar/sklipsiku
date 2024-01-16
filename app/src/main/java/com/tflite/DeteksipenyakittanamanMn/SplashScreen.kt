@@ -21,7 +21,7 @@ class SplashScreen : AppCompatActivity() {
 
         //setelah loading maka akan langsung berpindah ke MainActivity
         val handler = Handler()
-        handler.postDelayed(Runnable {
+        handler.postDelayed({
             startActivity(Intent(applicationContext, MainActivity::class.java))
             finish()
         }, 3000L) //3000 L = 3 detik
