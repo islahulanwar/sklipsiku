@@ -72,7 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="84dp"
-        android:background="#009688"
+        android:background="@drawable/rounded_button_detection"
         android:padding="7dp"
         android:rotation="0"
         android:shadowColor="@android:color/darker_gray"
