@@ -1,26 +1,26 @@
 [
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/layout/activity_splash_screen.xml",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_splash_screen.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/layout/activity_tentang.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-35:/layout/activity_tentang.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/layout/activity_main.xml",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_main.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-35:/layout/activity_main.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/layout/activity_pendeteksi.xml",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_pendeteksi.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/layout/activity_import_gallery.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-35:/layout/activity_import_gallery.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/layout/activity_bantuan.xml",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_bantuan.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/layout/activity_pendeteksi.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-35:/layout/activity_pendeteksi.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/layout/activity_import_gallery.xml",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_import_gallery.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/layout/activity_bantuan.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-35:/layout/activity_bantuan.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/layout/activity_tentang.xml",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_tentang.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/layout/activity_splash_screen.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-35:/layout/activity_splash_screen.xml"
     }
 ]

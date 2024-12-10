@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-32:/values-sk/values-sk.xml",
+            "outputFile": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-31:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\islah\\.gradle\\caches\\transforms-3\\0dcbe78152d5b46a0ffefea31048e189\\transformed\\core-1.13.1\\res\\values-sk\\values-sk.xml",
@@ -35,23 +35,6 @@
                         "startOffsets": "105,212,313,424,510,618,736,815,892,983,1076,1174,1268,1368,1461,1556,1654,1745,1836,1920,2025,2133,2232,2338,2450,2553,2719,3554",
                         "endColumns": "106,100,110,85,107,117,78,76,90,92,97,93,99,92,94,97,90,90,83,104,107,98,105,111,102,165,97,82",
                         "endOffsets": "207,308,419,505,613,731,810,887,978,1071,1169,1263,1363,1456,1551,1649,1740,1831,1915,2020,2128,2227,2333,2445,2548,2714,2812,3632"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\islah\\.gradle\\caches\\transforms-3\\abeb320e80b92a660b6d8532d0d0471e\\transformed\\jetified-ucrop-2.2.6\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,182",
-                        "endColumns": "69,56,50",
-                        "endOffsets": "120,177,228"
-                    },
-                    "to": {
-                        "startLines": "38,39,40",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "3738,3808,3865",
-                        "endColumns": "69,56,50",
-                        "endOffsets": "3803,3860,3911"
                     }
                 }
             ]

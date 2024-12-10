@@ -11,7 +11,6 @@ MERGED from [androidx.camera:camera-camera2:1.0.2] C:\Users\islah\.gradle\caches
 MERGED from [androidx.camera:camera-lifecycle:1.0.2] C:\Users\islah\.gradle\caches\transforms-3\51cc388de9790152fef4749d4ce78c51\transformed\jetified-camera-lifecycle-1.0.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-core:1.0.2] C:\Users\islah\.gradle\caches\transforms-3\ada98a67cbb47d112e14a0edb3e1c84b\transformed\jetified-camera-core-1.0.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\islah\.gradle\caches\transforms-3\abeb320e80b92a660b6d8532d0d0471e\transformed\jetified-ucrop-2.2.6\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\e372b1c8d57fb5ad2188adc9cd005101\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\928d0f2e273fc994c4284d963310876f\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\islah\.gradle\caches\transforms-3\2ca6bd59e03f0d1e49da5dd7cbb669ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
@@ -22,7 +21,7 @@ MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\islah\.gradle\caches\transf
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\2d5e0bddd7293c710d42c67cee933204\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\3453e0b559bb76aa021518dcf3874642\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.transition:transition:1.2.0-rc01] C:\Users\islah\.gradle\caches\transforms-3\6153d1c312061b5c1a2f9abd8076445c\transformed\transition-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\d29a1830bcbd3a99a29b2665f038e7c8\transformed\transition-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\islah\.gradle\caches\transforms-3\df51cbc9cbb6c23c30b5b336db1bf675\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\islah\.gradle\caches\transforms-3\efb7b5e20554ba52c9fc8352c476bf4c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\ad699fbb3cdb785306643ed148cb483c\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -44,7 +43,7 @@ MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\islah\.gradle\cache
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\islah\.gradle\caches\transforms-3\f1f1328666c2c4e9b74a0a201093d254\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\92663394b7abb3386ac73abad2dd86e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\islah\.gradle\caches\transforms-3\2a2c3a8df6c185697b5a98945b224b9d\transformed\exifinterface-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\fa1bd98eed0391894283e81428c78c40\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\ee2b899b51ae1f12086c3d79037b358c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\a780195f24421e5a188f11916c0d8f82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
@@ -228,8 +227,6 @@ MERGED from [androidx.camera:camera-core:1.0.2] C:\Users\islah\.gradle\caches\tr
 MERGED from [androidx.camera:camera-core:1.0.2] C:\Users\islah\.gradle\caches\transforms-3\ada98a67cbb47d112e14a0edb3e1c84b\transformed\jetified-camera-core-1.0.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\islah\.gradle\caches\transforms-3\abeb320e80b92a660b6d8532d0d0471e\transformed\jetified-ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\islah\.gradle\caches\transforms-3\abeb320e80b92a660b6d8532d0d0471e\transformed\jetified-ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\e372b1c8d57fb5ad2188adc9cd005101\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\e372b1c8d57fb5ad2188adc9cd005101\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\928d0f2e273fc994c4284d963310876f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
@@ -250,8 +247,8 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\islah\.gradle\c
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\3453e0b559bb76aa021518dcf3874642\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.transition:transition:1.2.0-rc01] C:\Users\islah\.gradle\caches\transforms-3\6153d1c312061b5c1a2f9abd8076445c\transformed\transition-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0-rc01] C:\Users\islah\.gradle\caches\transforms-3\6153d1c312061b5c1a2f9abd8076445c\transformed\transition-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\d29a1830bcbd3a99a29b2665f038e7c8\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\d29a1830bcbd3a99a29b2665f038e7c8\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\islah\.gradle\caches\transforms-3\df51cbc9cbb6c23c30b5b336db1bf675\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\islah\.gradle\caches\transforms-3\df51cbc9cbb6c23c30b5b336db1bf675\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\islah\.gradle\caches\transforms-3\efb7b5e20554ba52c9fc8352c476bf4c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -294,8 +291,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\islah\.gradle\
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\92663394b7abb3386ac73abad2dd86e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\islah\.gradle\caches\transforms-3\2a2c3a8df6c185697b5a98945b224b9d\transformed\exifinterface-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\islah\.gradle\caches\transforms-3\2a2c3a8df6c185697b5a98945b224b9d\transformed\exifinterface-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\fa1bd98eed0391894283e81428c78c40\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\fa1bd98eed0391894283e81428c78c40\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\ee2b899b51ae1f12086c3d79037b358c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
