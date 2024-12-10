@@ -65,8 +65,10 @@ class DeteksiDariGaleri : AppCompatActivity() {
         binding.mDetectButton.setOnClickListener {
             val startTime = SystemClock.uptimeMillis() // Menghitung waktu awal
             val results = mClassifier.recognizeImage(mBitmap).firstOrNull()
-            binding.mResultTextView.text = results?.title + "\n Probabilitas: " + results?.percent + "%"
-            lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime // Menghitung lamanya proses
+            binding.mResultTextView.text =
+                results?.title + "\n Probabilitas: " + results?.percent + "%"
+            lastProcessingTimeMs =
+                SystemClock.uptimeMillis() - startTime // Menghitung lamanya proses
             val waktu = lastProcessingTimeMs.toString() // Konversi ke string
             binding.delaytime.text = "$waktu ms "
         }
@@ -106,4 +108,3 @@ class DeteksiDariGaleri : AppCompatActivity() {
         return Bitmap.createBitmap(bitmap, 0, 0, originalWidth, originalHeight, matrix, true)
     }
 }
-
