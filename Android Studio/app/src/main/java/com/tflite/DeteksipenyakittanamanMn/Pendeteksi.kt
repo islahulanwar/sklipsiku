@@ -11,32 +11,29 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import androidx.core.app.ActivityCompat
-import kotlinx.android.synthetic.main.activity_pendeteksi.*
+import com.tflite.DeteksipenyakittanamanMn.databinding.ActivityPendeteksiBinding
 
 class Pendeteksi : AppCompatActivity() {
-
-    private lateinit var classifier: Klasifikasi
-    //mendeklarasikan komponen TextView resultbar yang akan dimanipulasi
+    private lateinit var binding: ActivityPendeteksiBinding
+    private lateinit var classifier: Klasifikasi // Menggunakan MobileNetV2
     private lateinit var resultbar: TextView
     private lateinit var processtime: TextView
-    //deklarasi variabel lastprocessingtimems bertipe data long
     private var lastProcessingTimeMs: Long = 0
 
     @SuppressLint("MissingPermission")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pendeteksi)
+        binding = ActivityPendeteksiBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        //mengganti nama title bar tiap activity
         if (supportActionBar != null) {
             (supportActionBar as ActionBar).title = "Pendeteksi Penyakit Tanaman"
         }
 
-        //obyek TextView resultbar disesuaikan (cast) dengan komponen TextView ber-ID result_bar di layout activity_pendeteksi.xml melalui metode findViewById().
         resultbar = findViewById(R.id.result_bar)
         processtime = findViewById(R.id.process_time_bar)
 
-        classifier = Klasifikasi(assets)
+        classifier = Klasifikasi(assets) // Inisialisasi MobileNetV2
 
         if (!canUseCamera()) {
             requestCameraPermissions()
@@ -55,27 +52,23 @@ class Pendeteksi : AppCompatActivity() {
 
     @SuppressLint("MissingPermission", "SetTextI18n")
     private fun setupCamera() {
-        camera.addPictureTakenListener {
+        binding.camera.addPictureTakenListener {
             AsyncTask.execute {
-                val startTime = SystemClock.uptimeMillis()//menghitung waktu awal
-                val recognitions = classifier.recognize(it.data)
+                val startTime = SystemClock.uptimeMillis()
+                val recognitions = classifier.recognize(it.data) // Gunakan MobileNetV2 untuk klasifikasi
                 val txt = recognitions.joinToString(separator = "\n")
-                lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime//menghitung lamanya proses
-                val waktu = lastProcessingTimeMs.toString()//konversi ke string
+                lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime
+                val waktu = lastProcessingTimeMs.toString()
                 runOnUiThread {
-                    /*menampilkan hasil pada UI*/
-                    //Toast.makeText(this, txt, Toast.LENGTH_LONG).show()
-                    /*menampilkan hasil pada layout TextView*/
                     resultbar.text = txt
-                    processtime.text = "$waktu ms "
+                    processtime.text = "$waktu ms"
                 }
             }
         }
 
-        capturePhoto.setOnClickListener {
-            camera.capture()
+        binding.capturePhoto.setOnClickListener {
+            binding.camera.capture()
         }
-
     }
 
     override fun onRequestPermissionsResult(
@@ -99,20 +92,20 @@ class Pendeteksi : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         if (canUseCamera()) {
-            camera.start()
+            binding.camera.start()
         }
     }
 
     override fun onPause() {
         if (canUseCamera()) {
-            camera.stop()
+            binding.camera.stop()
         }
         super.onPause()
     }
 
     override fun onDestroy() {
         if (canUseCamera()) {
-            camera.destroy()
+            binding.camera.destroy()
         }
         super.onDestroy()
     }

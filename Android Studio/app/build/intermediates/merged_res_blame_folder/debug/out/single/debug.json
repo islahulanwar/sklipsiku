@@ -1,126 +1,126 @@
 [
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/layout_activity_import_gallery.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/layout/activity_import_gallery.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/layout_activity_splash_screen.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/layout/activity_splash_screen.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/layout_activity_pendeteksi.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_pendeteksi.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/layout_activity_pendeteksi.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/layout/activity_pendeteksi.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_background.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/background.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/layout_activity_tentang.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_tentang.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_icon_launcher_background.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/icon_launcher_background.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/layout_activity_bantuan.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_bantuan.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_logo.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/logo.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_rounded_button.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/rounded_button.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/layout/activity_main.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_icon_launcher_background.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/icon_launcher_background.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_rounded_button_detection.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/rounded_button_detection.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/layout_activity_import_gallery.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_import_gallery.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_rounded_button.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/rounded_button.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_icon_background.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/icon_background.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/layout_activity_splash_screen.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/layout_activity_tentang.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/layout/activity_tentang.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/ic_launcher_background.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable_background.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable/background.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_icon_background.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/icon_background.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_rounded_button_detection.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/rounded_button_detection.xml"
     },
     {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-28:/layout_activity_bantuan.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-30:/layout/activity_bantuan.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-34:/drawable_logo.png.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-36:/drawable/logo.png"
     }
 ]

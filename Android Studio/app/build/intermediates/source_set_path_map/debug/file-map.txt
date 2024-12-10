@@ -1,31 +1,37 @@
-com.tflite.DeteksipenyakittanamanMn.app-appcompat-1.7.0-0 C:\Users\islahul anwar\.gradle\caches\transforms-3\060b673a48d2fe3214d43ec01f3e55fb\transformed\appcompat-1.7.0\res
-com.tflite.DeteksipenyakittanamanMn.app-constraintlayout-2.1.4-1 C:\Users\islahul anwar\.gradle\caches\transforms-3\08a1066d856ba1cb00cbc6006e20a708\transformed\constraintlayout-2.1.4\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-cameraview-ex-3.5.1-alpha-2 C:\Users\islahul anwar\.gradle\caches\transforms-3\1460607d933962f03539bc7e42a3e26f\transformed\jetified-cameraview-ex-3.5.1-alpha\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-startup-runtime-1.1.1-3 C:\Users\islahul anwar\.gradle\caches\transforms-3\21ba7dc1f3fb9250ce236361c169b142\transformed\jetified-startup-runtime-1.1.1\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-lifecycle-process-2.6.2-4 C:\Users\islahul anwar\.gradle\caches\transforms-3\2a55c9e89e30ce8129d8a74acbf7e110\transformed\jetified-lifecycle-process-2.6.2\res
-com.tflite.DeteksipenyakittanamanMn.app-core-runtime-2.2.0-5 C:\Users\islahul anwar\.gradle\caches\transforms-3\30f95b22cb22cbbe4592303d9d792f67\transformed\core-runtime-2.2.0\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-activity-1.7.0-6 C:\Users\islahul anwar\.gradle\caches\transforms-3\3c12691c602b419ebead7e9abeef498c\transformed\jetified-activity-1.7.0\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-savedstate-1.2.1-7 C:\Users\islahul anwar\.gradle\caches\transforms-3\46647a0cdb4897f2887ddb213f37528b\transformed\jetified-savedstate-1.2.1\res
-com.tflite.DeteksipenyakittanamanMn.app-core-1.13.1-8 C:\Users\islahul anwar\.gradle\caches\transforms-3\53d36627f30e97d5756e45ab0e0240a0\transformed\core-1.13.1\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-appcompat-resources-1.7.0-9 C:\Users\islahul anwar\.gradle\caches\transforms-3\5859342bd1688a5c95dc9691e1464a6f\transformed\jetified-appcompat-resources-1.7.0\res
-com.tflite.DeteksipenyakittanamanMn.app-transition-1.0.0-10 C:\Users\islahul anwar\.gradle\caches\transforms-3\626929d2ebd37d339a6f138ffe39af8c\transformed\transition-1.0.0\res
-com.tflite.DeteksipenyakittanamanMn.app-lifecycle-viewmodel-2.6.2-11 C:\Users\islahul anwar\.gradle\caches\transforms-3\6d4c6d4caa671a5841fd16892e937831\transformed\lifecycle-viewmodel-2.6.2\res
-com.tflite.DeteksipenyakittanamanMn.app-lifecycle-livedata-core-2.6.2-12 C:\Users\islahul anwar\.gradle\caches\transforms-3\714133a1469533f64a5feab5e9437285\transformed\lifecycle-livedata-core-2.6.2\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-profileinstaller-1.3.1-13 C:\Users\islahul anwar\.gradle\caches\transforms-3\9acb7dc11eb752baf6dd31c3feed0bc6\transformed\jetified-profileinstaller-1.3.1\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-emoji2-1.3.0-14 C:\Users\islahul anwar\.gradle\caches\transforms-3\a71248a7d39694e49e57bcb71240f911\transformed\jetified-emoji2-1.3.0\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-emoji2-views-helper-1.3.0-15 C:\Users\islahul anwar\.gradle\caches\transforms-3\a833136d2f7da53926e3623b7f3656ca\transformed\jetified-emoji2-views-helper-1.3.0\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-16 C:\Users\islahul anwar\.gradle\caches\transforms-3\af3f1f44edae46e2ce8984d5478e74d4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
-com.tflite.DeteksipenyakittanamanMn.app-lifecycle-livedata-2.6.2-17 C:\Users\islahul anwar\.gradle\caches\transforms-3\b6c4c9fc48edf1410efea2f6eea83043\transformed\lifecycle-livedata-2.6.2\res
-com.tflite.DeteksipenyakittanamanMn.app-lifecycle-runtime-2.6.2-18 C:\Users\islahul anwar\.gradle\caches\transforms-3\d099646dd11b71da022bcf2de388777e\transformed\lifecycle-runtime-2.6.2\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-annotation-experimental-1.4.0-19 C:\Users\islahul anwar\.gradle\caches\transforms-3\e2a9cf8362057d47142e56cf11cb8da2\transformed\jetified-annotation-experimental-1.4.0\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-core-ktx-1.13.1-20 C:\Users\islahul anwar\.gradle\caches\transforms-3\e4ee8ef26f25e1930538b73da416493e\transformed\jetified-core-ktx-1.13.1\res
-com.tflite.DeteksipenyakittanamanMn.app-fragment-1.5.4-21 C:\Users\islahul anwar\.gradle\caches\transforms-3\ebec1820f74f6f91794910875bb06683\transformed\fragment-1.5.4\res
-com.tflite.DeteksipenyakittanamanMn.app-jetified-circleimageview-3.0.0-22 C:\Users\islahul anwar\.gradle\caches\transforms-3\f5a5a7db19433af934a33a3177e99c1f\transformed\jetified-circleimageview-3.0.0\res
-com.tflite.DeteksipenyakittanamanMn.app-pngs-23 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\build\generated\res\pngs\debug
-com.tflite.DeteksipenyakittanamanMn.app-resValues-24 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\build\generated\res\resValues\debug
-com.tflite.DeteksipenyakittanamanMn.app-rs-25 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\build\generated\res\rs\debug
-com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-26 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-27 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.tflite.DeteksipenyakittanamanMn.app-merged_res-28 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\build\intermediates\merged_res\debug
-com.tflite.DeteksipenyakittanamanMn.app-debug-29 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\src\debug\res
-com.tflite.DeteksipenyakittanamanMn.app-main-30 D:\Kuliah\Skripskuy\Apps\Plant-disease-master\Android Studio\app\src\main\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-emoji2-1.3.0-0 C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-lifecycle-viewmodel-ktx-2.6.2-1 C:\Users\islah\.gradle\caches\transforms-3\0d107362b9fc966c637b06c504c0c72b\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-core-1.13.1-2 C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\res
+com.tflite.DeteksipenyakittanamanMn.app-lifecycle-livedata-core-2.6.2-3 C:\Users\islah\.gradle\caches\transforms-3\2945d42d51a4ce614ad4420bcb32d2b8\transformed\lifecycle-livedata-core-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-startup-runtime-1.1.1-4 C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-camera-camera2-1.0.2-5 C:\Users\islah\.gradle\caches\transforms-3\2fcde77fb8f7d298cbff1680a9ac2279\transformed\jetified-camera-camera2-1.0.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-lifecycle-process-2.6.2-6 C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-emoji2-views-helper-1.3.0-7 C:\Users\islah\.gradle\caches\transforms-3\3453e0b559bb76aa021518dcf3874642\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.tflite.DeteksipenyakittanamanMn.app-lifecycle-runtime-2.6.2-8 C:\Users\islah\.gradle\caches\transforms-3\3d72e30e5a7fb37e9371e0ab6375c060\transformed\lifecycle-runtime-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-savedstate-ktx-1.2.1-9 C:\Users\islah\.gradle\caches\transforms-3\4098c243ceea84c69b509d59c1c09e25\transformed\jetified-savedstate-ktx-1.2.1\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-activity-ktx-1.7.0-10 C:\Users\islah\.gradle\caches\transforms-3\542fa0206d8a81fc1e1d0c6f56d68bb3\transformed\jetified-activity-ktx-1.7.0\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-11 C:\Users\islah\.gradle\caches\transforms-3\5b0f625173f4b21396fbde09b386d5ae\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-profileinstaller-1.3.1-12 C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\res
+com.tflite.DeteksipenyakittanamanMn.app-transition-1.2.0-rc01-13 C:\Users\islah\.gradle\caches\transforms-3\6153d1c312061b5c1a2f9abd8076445c\transformed\transition-1.2.0-rc01\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-activity-1.7.0-14 C:\Users\islah\.gradle\caches\transforms-3\61a1ee8c8b2e7c5c2455175ace2297c3\transformed\jetified-activity-1.7.0\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-lifecycle-runtime-ktx-2.6.2-15 C:\Users\islah\.gradle\caches\transforms-3\6d7c38a3929ee40260398af71fb59238\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-fragment-1.5.4-16 C:\Users\islah\.gradle\caches\transforms-3\88046217d4994ced025088da9cd61903\transformed\fragment-1.5.4\res
+com.tflite.DeteksipenyakittanamanMn.app-lifecycle-livedata-2.6.2-17 C:\Users\islah\.gradle\caches\transforms-3\8c3f0f76231ebe22ccebd0bdccbe5be8\transformed\lifecycle-livedata-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-appcompat-1.7.0-18 C:\Users\islah\.gradle\caches\transforms-3\928d0f2e273fc994c4284d963310876f\transformed\appcompat-1.7.0\res
+com.tflite.DeteksipenyakittanamanMn.app-core-runtime-2.2.0-19 C:\Users\islah\.gradle\caches\transforms-3\97c60bb82333598500f9582de60cd14a\transformed\core-runtime-2.2.0\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-savedstate-1.2.1-20 C:\Users\islah\.gradle\caches\transforms-3\9cc8280ac6afd1682372d03ba7588544\transformed\jetified-savedstate-1.2.1\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-ucrop-2.2.6-21 C:\Users\islah\.gradle\caches\transforms-3\abeb320e80b92a660b6d8532d0d0471e\transformed\jetified-ucrop-2.2.6\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-cameraview-ex-3.5.7-alpha-22 C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-camera-core-1.0.2-23 C:\Users\islah\.gradle\caches\transforms-3\ada98a67cbb47d112e14a0edb3e1c84b\transformed\jetified-camera-core-1.0.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-annotation-experimental-1.4.0-24 C:\Users\islah\.gradle\caches\transforms-3\c91afa17ff503311a5f2b88c6796c7e0\transformed\jetified-annotation-experimental-1.4.0\res
+com.tflite.DeteksipenyakittanamanMn.app-lifecycle-viewmodel-2.6.2-25 C:\Users\islah\.gradle\caches\transforms-3\d1766ea3bf5a4c58f34a3b70ad653469\transformed\lifecycle-viewmodel-2.6.2\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-core-ktx-1.13.1-26 C:\Users\islah\.gradle\caches\transforms-3\d57976467a01a848d0acd61225712c05\transformed\jetified-core-ktx-1.13.1\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-appcompat-resources-1.7.0-27 C:\Users\islah\.gradle\caches\transforms-3\e372b1c8d57fb5ad2188adc9cd005101\transformed\jetified-appcompat-resources-1.7.0\res
+com.tflite.DeteksipenyakittanamanMn.app-jetified-circleimageview-3.0.0-28 C:\Users\islah\.gradle\caches\transforms-3\f1f1328666c2c4e9b74a0a201093d254\transformed\jetified-circleimageview-3.0.0\res
+com.tflite.DeteksipenyakittanamanMn.app-constraintlayout-2.1.4-29 C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\res
+com.tflite.DeteksipenyakittanamanMn.app-pngs-30 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\build\generated\res\pngs\debug
+com.tflite.DeteksipenyakittanamanMn.app-resValues-31 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\build\generated\res\resValues\debug
+com.tflite.DeteksipenyakittanamanMn.app-packageDebugResources-32 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.tflite.DeteksipenyakittanamanMn.app-packageDebugResources-33 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.tflite.DeteksipenyakittanamanMn.app-merged_res-34 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\build\intermediates\merged_res\debug
+com.tflite.DeteksipenyakittanamanMn.app-debug-35 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\debug\res
+com.tflite.DeteksipenyakittanamanMn.app-main-36 D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\res

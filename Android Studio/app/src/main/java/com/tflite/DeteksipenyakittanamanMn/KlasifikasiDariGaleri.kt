@@ -18,19 +18,17 @@ class KlasifikasiDariGaleri(assetManager: AssetManager, modelPath: String, label
     private var labellist: List<String>
     private val inputsize: Int = inputSize
     private val pixelsize: Int = 3
-    private val imagemean = 0
-    private val imagestd = 255.0f
-    private val maxresults = 3
-    private val threshold = 0.4f
+    private val maxresults = 1
+    private val threshold = 0.8f
 
     data class Recognition(
         var id: String = "",
         var title: String = "",
         var confidence: Float = 0F,
-        val percent: Float = confidence*100
-    )  {
+        val percent: Float = confidence * 100
+    ) {
         override fun toString(): String {
-            return "Title = $title, Prediksi = $percent)"
+            return "Title = $title, Prediksi = $percent%"
         }
     }
 
@@ -50,7 +48,6 @@ class KlasifikasiDariGaleri(assetManager: AssetManager, modelPath: String, label
 
     private fun loadLabelList(assetManager: AssetManager, labelPath: String): List<String> {
         return assetManager.open(labelPath).bufferedReader().useLines { it.toList() }
-
     }
 
     fun recognizeImage(bitmap: Bitmap): List<Recognition> {
@@ -60,8 +57,6 @@ class KlasifikasiDariGaleri(assetManager: AssetManager, modelPath: String, label
         interpreter.run(byteBuffer, result)
         return getSortedResult(result)
     }
-
-
 
     private fun convertBitmapToByteBuffer(bitmap: Bitmap): ByteBuffer {
         val byteBuffer = ByteBuffer.allocateDirect(4 * inputsize * inputsize * pixelsize)
@@ -74,39 +69,55 @@ class KlasifikasiDariGaleri(assetManager: AssetManager, modelPath: String, label
             for (j in 0 until inputsize) {
                 val `val` = intValues[pixel++]
 
-                byteBuffer.putFloat((((`val`.shr(16)  and 0xFF) - imagemean) / imagestd))
-                byteBuffer.putFloat((((`val`.shr(8) and 0xFF) - imagemean) / imagestd))
-                byteBuffer.putFloat((((`val` and 0xFF) - imagemean) / imagestd))
+                // Normalisasi [0, 255] -> [0, 1]
+                byteBuffer.putFloat((`val`.shr(16) and 0xFF) / 255.0f) // Red
+                byteBuffer.putFloat((`val`.shr(8) and 0xFF) / 255.0f)  // Green
+                byteBuffer.putFloat((`val` and 0xFF) / 255.0f)         // Blue
             }
         }
         return byteBuffer
     }
 
-
     private fun getSortedResult(labelProbArray: Array<FloatArray>): List<Recognition> {
-        Log.d("KlasifikasiDariGaleri", "List Size:(%d, %d, %d)".format(labelProbArray.size,labelProbArray[0].size,labellist.size))
+        Log.d("KlasifikasiDariGaleri", "List Size: (${labelProbArray.size}, ${labelProbArray[0].size}, ${labellist.size})")
 
         val pq = PriorityQueue(
             maxresults,
-            Comparator<Recognition> {
-                    (_, _, confidence1), (_, _, confidence2)
-                -> confidence1.compareTo(confidence2) * -1
-            })
+            Comparator<Recognition> { (_, _, confidence1), (_, _, confidence2) ->
+                confidence1.compareTo(confidence2) * -1
+            }
+        )
 
         for (i in labellist.indices) {
             val confidence = labelProbArray[0][i]
             if (confidence >= threshold) {
-                pq.add(Recognition("" + i,
-                    if (labellist.size > i) labellist[i] else "Unknown", confidence)
+                pq.add(
+                    Recognition(
+                        id = "$i",
+                        title = labellist[i],
+                        confidence = confidence
+                    )
+                )
+            } else {
+                pq.add(
+                    Recognition(
+                        id = "$i",
+                        title = "Objek tidak dikenal",
+                        confidence = confidence
+                    )
                 )
             }
         }
-        Log.d("KlasifikasiDariGaleri", "pqsize:(%d)".format(pq.size))
+
+        Log.d("KlasifikasiDariGaleri", "pqsize: ${pq.size}")
 
         val recognitions = ArrayList<Recognition>()
+
         val recognitionsSize = pq.size.coerceAtMost(maxresults)
         for (i in 0 until recognitionsSize) {
-            recognitions.add(pq.poll())
+            pq.poll()?.let { recognition ->
+                recognitions.add(recognition)
+            }
         }
         return recognitions
     }

@@ -6,18 +6,12 @@
     android:versionName="2.0" >
 
     <uses-sdk
-        android:minSdkVersion="28"
-        android:targetSdkVersion="33" />
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
 
     <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
@@ -29,7 +23,6 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <!-- <uses-feature android:name="android.hardware.camera.flash" /> -->
-
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 

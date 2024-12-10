@@ -4,14 +4,10 @@ import android.content.res.AssetManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import org.tensorflow.lite.Interpreter
-import java.io.BufferedReader
-import java.io.FileInputStream
-import java.io.IOException
-import java.io.InputStreamReader
+import org.tensorflow.lite.support.image.TensorImage
+import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
-import java.nio.channels.FileChannel
-import java.util.*
 
 class Klasifikasi(assetManager: AssetManager) {
 
@@ -19,87 +15,64 @@ class Klasifikasi(assetManager: AssetManager) {
     private val model: Interpreter
 
     init {
-        model = Interpreter(getModelByteBuffer(assetManager, MODEL_PATH))
-        labels = getLabels(assetManager, LABELS_PATH)
+        // Menginisialisasi Interpreter dengan opsi
+        val options = Interpreter.Options().apply {
+            setNumThreads(4) // Menyesuaikan jumlah thread
+            setUseXNNPACK(true) // Optimasi performa
+        }
+        model = Interpreter(loadModelFile(assetManager, MODEL_PATH), options)
+
+        // Muat label menggunakan AssetManager
+        labels = assetManager.open(LABELS_PATH).bufferedReader().useLines { lines ->
+            lines.toList()
+        }
     }
 
     fun recognize(data: ByteArray): List<Deteksi> {
-        val result = Array(BATCH_SIZE) { FloatArray(labels.size) }
-
         val unscaledBitmap = BitmapFactory.decodeByteArray(data, 0, data.size)
-        val bitmap =
-            Bitmap.createScaledBitmap(unscaledBitmap, MODEL_INPUT_SIZE, MODEL_INPUT_SIZE, false)
+        val bitmap = Bitmap.createScaledBitmap(unscaledBitmap, MODEL_INPUT_SIZE, MODEL_INPUT_SIZE, false)
 
-        val byteBuffer = ByteBuffer
-            .allocateDirect(
-                BATCH_SIZE *
-                        MODEL_INPUT_SIZE *
-                        MODEL_INPUT_SIZE *
-                        BYTES_PER_CHANNEL *
-                        PIXEL_SIZE
-            )
-            .apply { order(ByteOrder.nativeOrder()) }
+        // Preprocessing input
+        val inputImage = preprocessInput(bitmap)
 
-        val pixelValues = IntArray(MODEL_INPUT_SIZE * MODEL_INPUT_SIZE)
-        bitmap.getPixels(pixelValues, 0, bitmap.width, 0, 0, bitmap.width, bitmap.height)
+        // Buat buffer untuk output
+        val outputBuffer = TensorBuffer.createFixedSize(
+            intArrayOf(BATCH_SIZE, labels.size),
+            org.tensorflow.lite.DataType.FLOAT32
+        )
 
-        var pixel = 0
-        for (i in 0 until MODEL_INPUT_SIZE) {
-            for (j in 0 until MODEL_INPUT_SIZE) {
-                val pixelValue = pixelValues[pixel++]
-                byteBuffer.putFloat((pixelValue shr 16 and 0xFF) / 255f)
-                byteBuffer.putFloat((pixelValue shr 8 and 0xFF) / 255f)
-                byteBuffer.putFloat((pixelValue and 0xFF) / 255f)
-            }
-        }
+        // Jalankan model
+        model.run(inputImage.buffer, outputBuffer.buffer)
 
-        model.run(byteBuffer, result)
-        return parseResults(result)
+        return parseResults(outputBuffer.floatArray)
     }
 
-    private fun parseResults(result: Array<FloatArray>): List<Deteksi> {
-
-        val recognitions = mutableListOf<Deteksi>()
-
-        labels.forEachIndexed { index, label ->
-            val probability = result[0][index]
-            recognitions.add(Deteksi(label, probability))
-        }
-
-        return recognitions.sortedByDescending { it.probability }
+    private fun preprocessInput(bitmap: Bitmap): TensorImage {
+        val tensorImage = TensorImage(org.tensorflow.lite.DataType.FLOAT32)
+        tensorImage.load(bitmap)
+        return tensorImage
     }
 
-    @Throws(IOException::class)
-    private fun getModelByteBuffer(assetManager: AssetManager, modelPath: String): ByteBuffer {
-        val fileDescriptor = assetManager.openFd(modelPath)
-        val inputStream = FileInputStream(fileDescriptor.fileDescriptor)
-        val fileChannel = inputStream.channel
-        val startOffset = fileDescriptor.startOffset
-        val declaredLength = fileDescriptor.declaredLength
-        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength)
-            .asReadOnlyBuffer()
+    private fun parseResults(result: FloatArray): List<Deteksi> {
+        return labels.mapIndexed { index, label ->
+            Deteksi(label, result[index])
+        }.sortedByDescending { it.probability }
     }
 
-    @Throws(IOException::class)
-    private fun getLabels(assetManager: AssetManager, labelPath: String): List<String> {
-        val labels = ArrayList<String>()
-        val reader = BufferedReader(InputStreamReader(assetManager.open(labelPath)))
-        while (true) {
-            val label = reader.readLine() ?: break
-            labels.add(label)
+    private fun loadModelFile(assetManager: AssetManager, modelPath: String): ByteBuffer {
+        return assetManager.open(modelPath).use {
+            val buffer = ByteBuffer.allocateDirect(it.available())
+            buffer.order(ByteOrder.nativeOrder())
+            buffer.put(it.readBytes())
+            buffer.flip()
+            buffer
         }
-        reader.close()
-        return labels
     }
 
     companion object {
-        private const val BATCH_SIZE = 1 // process only 1 image at a time
-        private const val MODEL_INPUT_SIZE = 64
-        private const val BYTES_PER_CHANNEL = 4 // float size
-        private const val PIXEL_SIZE = 3 // rgb
-
+        private const val BATCH_SIZE = 1
+        private const val MODEL_INPUT_SIZE = 224
         private const val LABELS_PATH = "label.txt"
         private const val MODEL_PATH = "DeteksiPenyakitTanamanMoNet.tflite"
     }
-
 }

@@ -10,7 +10,7 @@
     <string name="content_step_3"><b>IDENTIFIKASI DENGAN KAMERA</b> penggunanaannya dengan cara mengambil gambar secara langsung pada obyek yang akan di identifikasi, lalu tekan tombol "DETEK" untuk identifikasi</string>
     <string name="content_step_4"><b>IDENTIFIKASI DARI GALERI</b> penggunaannya dengan cara menekan tombol "PILIH GAMBAR" lalu pilih foto yang terdapat pada gallery untuk identifikasi </string>
     <string name="content_step_5">Hasil dari kedua identifikasi akan muncul dengan nilai probabilitasnya, serta waktu yang dibutuhkan untuk identifikasi juga di tampilkan dalam satuan ms</string>
-    <string name="hasil_1_nhasil_2_nhasil_3"><b>Prediksi 1</b>\nPrediksi 2\nPrediksi 3</string>
+    <string name="hasil_1_nhasil_2"><b>Prediksi 1</b>\nPrediksi 2</string>
     <string name="process_time">… ms   </string>
     <string name="delay_time">… ms   </string>
     <string name="info">Klik DETEKSI untuk Identifikasi</string>
@@ -20,5 +20,5 @@
     <string name="hints">Pilih Gambar Lalu Klik DETEKSI</string>
     <string name="namaapp"><b>Plant Disesases 1.0</b></string>
     <string name="me"><b><u>Islahul Anwar</u></b></string>
-    <string name="content_about">Aplikasi Plant Diseases dapat digunakan bagi para petani, peneliti dan lainnya dalam mengidentifikasi awal pada penyakit tanaman.</string>
+    <string name="content_about">Aplikasi Plant Diseases dapat digunakan bagi para petani, peneliti dan lainnya dalam mengidentifikasi awal pada penyakit tanaman khususnya daun tanaman cabai.</string>
 </resources>
