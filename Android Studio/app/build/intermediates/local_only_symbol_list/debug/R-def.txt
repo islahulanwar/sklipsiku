@@ -57,7 +57,7 @@ string content_work
 string delay_time
 string descriptionImage
 string display_result
-string hasil_1_nhasil_2
+string hasil
 string hints
 string import_gallery
 string info

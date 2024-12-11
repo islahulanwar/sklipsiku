@@ -1464,7 +1464,7 @@ int string crop__wait 0x7f0d0032
 int string delay_time 0x7f0d0033
 int string descriptionImage 0x7f0d0034
 int string display_result 0x7f0d0035
-int string hasil_1_nhasil_2 0x7f0d0036
+int string hasil 0x7f0d0041
 int string hints 0x7f0d0037
 int string import_gallery 0x7f0d0038
 int string info 0x7f0d0039

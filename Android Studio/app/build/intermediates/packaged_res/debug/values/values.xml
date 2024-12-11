@@ -20,7 +20,7 @@
     <string name="delay_time">… ms   </string>
     <string name="descriptionImage">Lihat untuk Menampilkan Gambar</string>
     <string name="display_result"><b>Hasil Prediksi</b>\n</string>
-    <string name="hasil_1_nhasil_2"><b>Prediksi 1</b>\nPrediksi 2</string>
+    <string name="hasil"><b>Prediksi 1</b>\nPrediksi 2</string>
     <string name="hints">Pilih Gambar Lalu Klik DETEKSI</string>
     <string name="import_gallery">Identfikasi dari Galeri</string>
     <string name="info">Klik DETEKSI untuk Identifikasi</string>

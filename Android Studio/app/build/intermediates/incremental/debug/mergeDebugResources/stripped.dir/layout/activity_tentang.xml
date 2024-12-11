@@ -45,7 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginRight="16dp"
-                    android:text="Plant Diseases Alpha Versi 9999 "
+                    android:text="Plant Diseases 3.0 "
                     android:textColor="#000099"
                     android:textSize="14sp" />
             </TableRow>
