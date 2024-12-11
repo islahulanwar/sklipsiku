@@ -19,7 +19,7 @@ class KlasifikasiDariGaleri(assetManager: AssetManager, modelPath: String, label
     private val inputsize: Int = inputSize
     private val pixelsize: Int = 3
     private val maxresults = 1
-    private val threshold = 0.8f
+    private val threshold = 0.75f
 
     data class Recognition(
         var id: String = "",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Users\islah\.gradle\caches\transforms-3\e27c125906c9a95566104545e73b51ee\transformed\jetified-viewbinding-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:14:1-34:12
 MERGED from [io.insert-koin:koin-android:3.1.5] C:\Users\islah\.gradle\caches\transforms-3\2c11258f8a26a34ff732642fa39faa60\transformed\jetified-koin-android-3.1.5\AndroidManifest.xml:2:1-9:12
@@ -13,6 +13,7 @@ MERGED from [androidx.camera:camera-core:1.0.2] C:\Users\islah\.gradle\caches\tr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\e372b1c8d57fb5ad2188adc9cd005101\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\928d0f2e273fc994c4284d963310876f\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\b477d9eb28833b5067090ef2352dd5b6\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\islah\.gradle\caches\transforms-3\2ca6bd59e03f0d1e49da5dd7cbb669ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\islah\.gradle\caches\transforms-3\88046217d4994ced025088da9cd61903\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\542fa0206d8a81fc1e1d0c6f56d68bb3\transformed\jetified-activity-ktx-1.7.0\AndroidManifest.xml:17:1-22:12
@@ -41,9 +42,11 @@ MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\islah\.gradle\caches
 MERGED from [org.tensorflow:tensorflow-lite-support:0.4.3] C:\Users\islah\.gradle\caches\transforms-3\e2e90978323eb34a0b425f995949d47c\transformed\jetified-tensorflow-lite-support-0.4.3\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\islah\.gradle\caches\transforms-3\d51ba6754699960ccffd3328773401ca\transformed\jetified-tensorflow-lite-2.10.0\AndroidManifest.xml:2:1-12:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\islah\.gradle\caches\transforms-3\f1f1328666c2c4e9b74a0a201093d254\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\islah\.gradle\caches\transforms-3\377dbdc5ff1154b67d8e90e6e56d4985\transformed\jetified-android-crop-1.0.1\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\92663394b7abb3386ac73abad2dd86e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\fa1bd98eed0391894283e81428c78c40\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\islah\.gradle\caches\transforms-3\c22f99a5bb524f7617d34bb8af18b12f\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\fba3d9a238414c431e18666de5a37cb3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\ee2b899b51ae1f12086c3d79037b358c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\a780195f24421e5a188f11916c0d8f82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
@@ -109,12 +112,14 @@ ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\An
 	android:name
 		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:22-66
 application
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-52:19
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-52:19
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-55:19
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-55:19
 MERGED from [io.insert-koin:koin-android:3.1.5] C:\Users\islah\.gradle\caches\transforms-3\2c11258f8a26a34ff732642fa39faa60\transformed\jetified-koin-android-3.1.5\AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android:3.1.5] C:\Users\islah\.gradle\caches\transforms-3\2c11258f8a26a34ff732642fa39faa60\transformed\jetified-koin-android-3.1.5\AndroidManifest.xml:7:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\b477d9eb28833b5067090ef2352dd5b6\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\b477d9eb28833b5067090ef2352dd5b6\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\islah\.gradle\caches\transforms-3\2ca6bd59e03f0d1e49da5dd7cbb669ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\islah\.gradle\caches\transforms-3\2ca6bd59e03f0d1e49da5dd7cbb669ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
@@ -129,6 +134,8 @@ MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\islah\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\islah\.gradle\caches\transforms-3\f1f1328666c2c4e9b74a0a201093d254\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\fba3d9a238414c431e18666de5a37cb3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\fba3d9a238414c431e18666de5a37cb3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\a780195f24421e5a188f11916c0d8f82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -181,34 +188,40 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
 		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:9-42:71
+	android:theme
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:13-69
+	android:name
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:13-73
 activity#com.tflite.DeteksipenyakittanamanMn.Tentang
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:9-80
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:9-80
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:19-77
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:19-77
 activity#com.tflite.DeteksipenyakittanamanMn.Bantuan
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:9-80
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:9-80
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:19-77
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:19-77
 activity#com.tflite.DeteksipenyakittanamanMn.DeteksiDariGaleri
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:9-44:20
-	android:screenOrientation
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:13-49
-	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:19-87
-activity#com.tflite.DeteksipenyakittanamanMn.Pendeteksi
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:9-48:20
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:9-47:20
 	android:screenOrientation
 		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:46:13-49
-	android:colorMode
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:47:13-47
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:19-80
-activity#com.tflite.DeteksipenyakittanamanMn.MainActivity
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:49:9-51:20
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:19-87
+activity#com.tflite.DeteksipenyakittanamanMn.Pendeteksi
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:9-51:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:49:13-49
+	android:colorMode
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:50:13-47
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:49:19-82
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:19-80
+activity#com.tflite.DeteksipenyakittanamanMn.MainActivity
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:52:9-54:20
+	android:screenOrientation
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:52:19-82
 uses-sdk
 INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml
@@ -231,6 +244,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\islah\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\e372b1c8d57fb5ad2188adc9cd005101\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\928d0f2e273fc994c4284d963310876f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\islah\.gradle\caches\transforms-3\928d0f2e273fc994c4284d963310876f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\b477d9eb28833b5067090ef2352dd5b6\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\b477d9eb28833b5067090ef2352dd5b6\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\islah\.gradle\caches\transforms-3\2ca6bd59e03f0d1e49da5dd7cbb669ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\islah\.gradle\caches\transforms-3\2ca6bd59e03f0d1e49da5dd7cbb669ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\islah\.gradle\caches\transforms-3\88046217d4994ced025088da9cd61903\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
@@ -287,12 +302,16 @@ MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\islah\.gradle\cache
 MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\islah\.gradle\caches\transforms-3\d51ba6754699960ccffd3328773401ca\transformed\jetified-tensorflow-lite-2.10.0\AndroidManifest.xml:7:5-8:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\islah\.gradle\caches\transforms-3\f1f1328666c2c4e9b74a0a201093d254\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\islah\.gradle\caches\transforms-3\f1f1328666c2c4e9b74a0a201093d254\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\islah\.gradle\caches\transforms-3\377dbdc5ff1154b67d8e90e6e56d4985\transformed\jetified-android-crop-1.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\islah\.gradle\caches\transforms-3\377dbdc5ff1154b67d8e90e6e56d4985\transformed\jetified-android-crop-1.0.1\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\92663394b7abb3386ac73abad2dd86e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\92663394b7abb3386ac73abad2dd86e1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\fa1bd98eed0391894283e81428c78c40\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\fa1bd98eed0391894283e81428c78c40\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\islah\.gradle\caches\transforms-3\c22f99a5bb524f7617d34bb8af18b12f\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\islah\.gradle\caches\transforms-3\c22f99a5bb524f7617d34bb8af18b12f\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\fba3d9a238414c431e18666de5a37cb3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\islah\.gradle\caches\transforms-3\fba3d9a238414c431e18666de5a37cb3\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\islah\.gradle\caches\transforms-3\2e15b6db2efe00bb370d3f37588631e3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\islah\.gradle\caches\transforms-3\ee2b899b51ae1f12086c3d79037b358c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41

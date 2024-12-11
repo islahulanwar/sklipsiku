@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <attr format="enum" name="animateCircleAngleTo">
         <enum name="bestChoice" value="0"/>
         <enum name="closest" value="1"/>
@@ -36,6 +36,7 @@
     <attr format="string" name="constraint_referenced_ids"/>
     <attr format="string" name="constraint_referenced_tags"/>
     <attr format="reference" name="content"/>
+    <attr format="reference" name="cropImageStyle"/>
     <attr format="enum" name="curveFit">
         <enum name="spline" value="0"/>
         <enum name="linear" value="1"/>
@@ -395,6 +396,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#21596F</color>
     <color name="colorSplashScreen">#0E899B</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="crop__selector_pressed">#1a000000</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -527,6 +532,7 @@
     <dimen name="compat_control_corner_material">2dp</dimen>
     <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
     <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="crop__bar_height">56dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
@@ -600,6 +606,7 @@
     <item name="action_menu_presenter" type="id"/>
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
+    <item name="glide_custom_view_target_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
@@ -692,6 +699,11 @@
     <string name="content_step_4"><b>IDENTIFIKASI DARI GALERI</b> penggunaannya dengan cara menekan tombol "PILIH GAMBAR" lalu pilih foto yang terdapat pada gallery untuk identifikasi </string>
     <string name="content_step_5">Hasil dari kedua identifikasi akan muncul dengan nilai probabilitasnya, serta waktu yang dibutuhkan untuk identifikasi juga di tampilkan dalam satuan ms</string>
     <string name="content_work">Aplikasi ini bekerja dengan cara mengambil citra/gambar obyek menggunakan kamera <i>smartphone</i> atau mengimpor gambar dari galeri foto yang sudah tersimpan.  Kemudian dilakukan identifikasi penyakit tanaman berdasrkan citra daun menggunakan metode <i>Deep Learning</i></string>
+    <string name="crop__cancel" ns2:ignore="ButtonCase">CANCEL</string>
+    <string name="crop__done">DONE</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
     <string name="delay_time">… ms   </string>
     <string name="descriptionImage">Lihat untuk Menampilkan Gambar</string>
     <string name="display_result"><b>Hasil Prediksi</b>\n</string>
@@ -1805,6 +1817,41 @@
         <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
+    </style>
+    <style name="Crop"/>
+    <style name="Crop.ActionButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/crop__selectable_background</item>
+    </style>
+    <style name="Crop.ActionButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">20dp</item> 
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/crop__button_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Crop.ActionButtonText.Cancel">
+        <item name="android:drawableLeft">@drawable/crop__ic_cancel</item>
+        <item name="android:text">@string/crop__cancel</item>
+    </style>
+    <style name="Crop.ActionButtonText.Done">
+        <item name="android:drawableLeft">@drawable/crop__ic_done</item>
+        <item name="android:text">@string/crop__done</item>
+    </style>
+    <style name="Crop.DoneCancelBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/crop__bar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:divider">@drawable/crop__divider</item>
+        <item name="android:showDividers" ns2:ignore="NewApi">middle</item>
+        <item name="android:dividerPadding" ns2:ignore="NewApi">12dp</item>
+        <item name="android:background">@color/crop__button_bar</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
@@ -3727,6 +3774,7 @@
         <attr name="layout_constraintTag"/>
 
     </declare-styleable>
+    <declare-styleable name="CropImageView"><attr format="reference|color" name="highlightColor"/><attr format="boolean" name="showThirds"/><attr format="boolean" name="showCircle"/><attr name="showHandles"><enum name="changing" value="0"/><enum name="always" value="1"/><enum name="never" value="2"/></attr></declare-styleable>
     <declare-styleable name="CustomAttribute">
         <attr format="string" name="attributeName"/>
         <attr format="string" name="methodName"/>

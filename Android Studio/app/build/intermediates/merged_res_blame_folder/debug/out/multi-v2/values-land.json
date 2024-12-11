@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-31:/values-land/values-land.xml",
+            "outputFile": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-33:/values-land/values-land.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\islah\\.gradle\\caches\\transforms-3\\377dbdc5ff1154b67d8e90e6e56d4985\\transformed\\jetified-android-crop-1.0.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "171",
+                        "endColumns": "47",
+                        "endOffsets": "214"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "47",
+                        "endOffsets": "307"
+                    }
+                },
                 {
                     "source": "C:\\Users\\islah\\.gradle\\caches\\transforms-3\\928d0f2e273fc994c4284d963310876f\\transformed\\appcompat-1.7.0\\res\\values-land\\values-land.xml",
                     "from": {

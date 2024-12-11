@@ -60,6 +60,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name="com.tflite.DeteksipenyakittanamanMn.Tentang" />
         <activity android:name="com.tflite.DeteksipenyakittanamanMn.Bantuan" />
         <activity

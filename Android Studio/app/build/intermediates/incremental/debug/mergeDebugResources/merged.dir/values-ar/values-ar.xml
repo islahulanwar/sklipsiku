@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
@@ -34,6 +34,11 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"مكالمة واردة"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"مكالمة جارية"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"يتم فحص المكالمة الواردة"</string>
+    <string name="crop__cancel" ns2:ignore="ButtonCase">الغاء</string>
+    <string name="crop__done">تم</string>
+    <string name="crop__pick_error">الصورة غير متاحة</string>
+    <string name="crop__saving">جارى حفظ الصورة …</string>
+    <string name="crop__wait">رجاء الأنتظار …</string>
     <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
