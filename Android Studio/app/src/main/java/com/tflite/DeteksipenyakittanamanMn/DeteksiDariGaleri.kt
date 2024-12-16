@@ -59,7 +59,7 @@ class DeteksiDariGaleri : AppCompatActivity() {
         }
 
         binding.mGalleryButton.setOnClickListener { v ->
-            // Open gallery to pick an image
+            // Membuka galeri untuk memilih gambar
             val intent =
                 Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
             startActivityForResult(intent, pickImageRequest)
@@ -75,23 +75,17 @@ class DeteksiDariGaleri : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == pickImageRequest && resultCode == RESULT_OK && data != null) {
-            sourceUri = data.data // Get the selected image URI
-
-            // Set destination URI for the cropped image
+            sourceUri = data.data
             val croppedImageFile = File(cacheDir, "cropped")
             destinationUri = Uri.fromFile(croppedImageFile)
-
-            // Start cropping
             Crop.of(sourceUri, destinationUri).asSquare().start(this)
+
         } else if (requestCode == Crop.REQUEST_CROP && resultCode == RESULT_OK) {
             try {
-                // Ensure the cropped image URI is not null
                 val croppedUri = Crop.getOutput(data)
                 if (croppedUri != null) {
-                    // Decode the cropped image URI into a Bitmap
                     val inputStream: InputStream? = contentResolver.openInputStream(croppedUri)
                     val bitmapImage = BitmapFactory.decodeStream(inputStream)
-
                     if (bitmapImage != null) {
                         mBitmap = bitmapImage
                         binding.mPhotoImageView.setImageBitmap(mBitmap) // Display the cropped image
