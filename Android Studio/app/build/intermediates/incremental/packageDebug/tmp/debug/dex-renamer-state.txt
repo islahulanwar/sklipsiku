@@ -1,4 +1,4 @@
-#Wed Dec 11 08:28:18 WITA 2024
+#Sun Dec 15 17:17:39 WITA 2024
 base.0=D\:\\Kuliah\\Skripskuy\\Apps\\Chili Disease\\Android Studio\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Kuliah\\Skripskuy\\Apps\\Chili Disease\\Android Studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\Kuliah\\Skripskuy\\Apps\\Chili Disease\\Android Studio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex

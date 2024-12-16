@@ -8,8 +8,8 @@
     <string name="content_step_1">Buka Aplikasi Plant Diseases</string>
     <string name="content_step_2">Memilih metode yang digunakan, <b>IDENTIFIKASI DENGAN KAMERA</b> atau <b>IDENTIFIKASI DARI GALERI</b></string>
     <string name="content_step_3"><b>IDENTIFIKASI DENGAN KAMERA</b> penggunanaannya dengan cara mengambil gambar secara langsung pada obyek yang akan di identifikasi, lalu tekan tombol "DETEK" untuk identifikasi</string>
-    <string name="content_step_4"><b>IDENTIFIKASI DARI GALERI</b> penggunaannya dengan cara menekan tombol "PILIH GAMBAR" lalu pilih foto yang terdapat pada gallery untuk identifikasi </string>
-    <string name="content_step_5">Hasil dari kedua identifikasi akan muncul dengan nilai probabilitasnya, serta waktu yang dibutuhkan untuk identifikasi juga di tampilkan dalam satuan ms</string>
+    <string name="content_step_4"><b>IDENTIFIKASI DARI GALERI</b> penggunaannya dengan cara menekan tombol "PILIH GAMBAR" lalu pilih foto yang terdapat pada gallery kemudian lakukan croping terhadap objek yang mau identifikasi </string>
+    <string name="content_step_5">Hasil dari kedua identifikasi akan muncul dengan nilai probabilitasnya, serta waktu yang dibutuhkan untuk identifikasi juga akan di tampilkan dalam satuan ms</string>
     <string name="hasil"><b>Prediksi 1</b>\nPrediksi 2</string>
     <string name="process_time">… ms   </string>
     <string name="delay_time">… ms   </string>
@@ -18,7 +18,7 @@
     <string name="descriptionImage">Lihat untuk Menampilkan Gambar</string>
     <string name="display_result"><b>Hasil Prediksi</b>\n</string>
     <string name="hints">Pilih Gambar Lalu Klik DETEKSI</string>
-    <string name="namaapp"><b>Plant Disesases 1.0</b></string>
+    <string name="namaapp"><b>Plant Disesases 3.0</b></string>
     <string name="me"><b><u>Islahul Anwar</u></b></string>
     <string name="content_about">Aplikasi Plant Diseases dapat digunakan bagi para petani, peneliti dan lainnya dalam mengidentifikasi awal pada penyakit tanaman khususnya daun tanaman cabai.</string>
 </resources>
