@@ -41,7 +41,7 @@ class DeteksiDariGaleri : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         if (supportActionBar != null) {
-            (supportActionBar as ActionBar).title = "Pendeteksi Penyakit Tanaman"
+            (supportActionBar as ActionBar).title = "Identifikasi dari Galeri"
         }
 
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED

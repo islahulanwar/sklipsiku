@@ -27,7 +27,7 @@ class Pendeteksi : AppCompatActivity() {
         setContentView(binding.root)
 
         if (supportActionBar != null) {
-            (supportActionBar as ActionBar).title = "Pendeteksi Penyakit Tanaman"
+            (supportActionBar as ActionBar).title = "Identifikasi dengan Kamera"
         }
 
         resultbar = findViewById(R.id.result_bar)
