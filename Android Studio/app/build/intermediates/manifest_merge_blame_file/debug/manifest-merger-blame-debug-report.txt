@@ -36,176 +36,174 @@
 23-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:14:5-70
 23-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:14:19-67
 24
-25    <!-- <uses-feature android:name="android.hardware.camera.flash" /> -->
-26    <uses-permission android:name="android.permission.FLASHLIGHT" />
-26-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:5-68
-26-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:22-66
-27    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-27-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:22:5-71
-27-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:22:22-68
-28
-29    <uses-feature
-29-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:30:5-32:36
-30        android:name="android.hardware.camera2"
-30-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:31:9-48
-31        android:required="false" />
-31-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:32:9-33
-32
-33    <permission
-33-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-34        android:name="com.tflite.DeteksipenyakittanamanMn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-34-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-35        android:protectionLevel="signature" />
-35-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
-36
-37    <uses-permission android:name="com.tflite.DeteksipenyakittanamanMn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-37-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-37-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-38
-39    <application
-39-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-55:19
-40        android:allowBackup="true"
-40-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:21:9-35
-41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
-42        android:debuggable="true"
-43        android:extractNativeLibs="false"
-44        android:icon="@mipmap/ic_launcher"
-44-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:22:9-43
-45        android:label="@string/app_name"
-45-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:23:9-41
-46        android:roundIcon="@mipmap/ic_launcher_round"
-46-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:24:9-54
-47        android:supportsRtl="true"
-47-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:25:9-35
+25    <uses-permission android:name="android.permission.FLASHLIGHT" />
+25-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:15:5-68
+25-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:15:22-66
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:22:5-71
+26-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:22:22-68
+27
+28    <uses-feature
+28-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:30:5-32:36
+29        android:name="android.hardware.camera2"
+29-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:31:9-48
+30        android:required="false" />
+30-->[dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:32:9-33
+31
+32    <permission
+32-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+33        android:name="com.tflite.DeteksipenyakittanamanMn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.tflite.DeteksipenyakittanamanMn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:17:5-51:19
+39        android:allowBackup="true"
+39-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@mipmap/ic_launcher"
+43-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:19:9-43
+44        android:label="@string/app_name"
+44-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:21:9-54
+46        android:supportsRtl="true"
+46-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:22:9-35
+47        android:testOnly="true"
 48        android:theme="@style/AppTheme" >
-48-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:26:9-40
+48-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:23:9-40
 49        <activity
-49-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:28:9-39:20
+49-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:25:9-35:20
 50            android:name="com.tflite.DeteksipenyakittanamanMn.SplashScreen"
-50-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:28:19-82
+50-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:25:19-82
 51            android:exported="true"
-51-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:29:13-36
-52            android:label="@string/app_name"
-52-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:30:13-45
-53            android:noHistory="true"
-53-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:31:13-37
-54            android:screenOrientation="portrait"
-54-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:32:13-49
-55            android:theme="@style/AppThemeSplashScreen" >
-55-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:33:13-56
-56            <intent-filter>
-56-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:34:13-38:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:35:17-69
-57-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:35:25-66
-58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:17-77
-59-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:27-74
-60            </intent-filter>
-61        </activity>
-62        <activity
-62-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:9-42:71
-63            android:name="com.soundcloud.android.crop.CropImageActivity"
-63-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:13-73
-64            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-64-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:13-69
-65        <activity android:name="com.tflite.DeteksipenyakittanamanMn.Tentang" />
-65-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:9-80
-65-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:19-77
-66        <activity android:name="com.tflite.DeteksipenyakittanamanMn.Bantuan" />
-66-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:9-80
-66-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:19-77
-67        <activity
-67-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:9-47:20
-68            android:name="com.tflite.DeteksipenyakittanamanMn.DeteksiDariGaleri"
-68-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:19-87
-69            android:screenOrientation="portrait" >
-69-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:46:13-49
-70        </activity>
-71        <activity
-71-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:9-51:20
-72            android:name="com.tflite.DeteksipenyakittanamanMn.Pendeteksi"
-72-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:19-80
-73            android:colorMode="wideColorGamut"
-73-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:50:13-47
-74            android:screenOrientation="portrait" >
-74-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:49:13-49
-75        </activity>
-76        <activity
-76-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:52:9-54:20
-77            android:name="com.tflite.DeteksipenyakittanamanMn.MainActivity"
-77-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:52:19-82
-78            android:screenOrientation="portrait" >
-78-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:53:13-49
-79        </activity>
-80
-81        <provider
-81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-82            android:name="androidx.startup.InitializationProvider"
-82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-83            android:authorities="com.tflite.DeteksipenyakittanamanMn.androidx-startup"
-83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-84            android:exported="false" >
-84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-85            <meta-data
-85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-87                android:value="androidx.startup" />
-87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-88            <meta-data
-88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-90                android:value="androidx.startup" />
-90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-91            <meta-data
-91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-93                android:value="androidx.startup" />
-93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-94        </provider>
-95
-96        <receiver
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-98            android:directBootAware="false"
-98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-99            android:enabled="true"
-99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-100            android:exported="true"
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-101            android:permission="android.permission.DUMP" >
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-102            <intent-filter>
-102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-104            </intent-filter>
-105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-107            </intent-filter>
-108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-110            </intent-filter>
-111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-113            </intent-filter>
-114        </receiver>
-115    </application>
-116
-117</manifest>
+51-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:26:13-36
+52            android:noHistory="true"
+52-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:27:13-37
+53            android:screenOrientation="portrait"
+53-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:28:13-49
+54            android:theme="@style/AppThemeSplashScreen" >
+54-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:29:13-56
+55            <intent-filter>
+55-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:30:13-34:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:31:17-69
+56-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:31:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:33:17-77
+58-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:33:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:36:9-38:71
+62            android:name="com.soundcloud.android.crop.CropImageActivity"
+62-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:13-73
+63            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+63-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:38:13-69
+64        <activity android:name="com.tflite.DeteksipenyakittanamanMn.Tentang" />
+64-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:39:9-80
+64-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:39:19-77
+65        <activity android:name="com.tflite.DeteksipenyakittanamanMn.Bantuan" />
+65-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:9-80
+65-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:19-77
+66        <activity
+66-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:9-43:20
+67            android:name="com.tflite.DeteksipenyakittanamanMn.DeteksiDariGaleri"
+67-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:19-87
+68            android:screenOrientation="portrait" >
+68-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:13-49
+69        </activity>
+70        <activity
+70-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:9-47:20
+71            android:name="com.tflite.DeteksipenyakittanamanMn.Pendeteksi"
+71-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:19-80
+72            android:colorMode="wideColorGamut"
+72-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:46:13-47
+73            android:screenOrientation="portrait" >
+73-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:13-49
+74        </activity>
+75        <activity
+75-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:9-50:20
+76            android:name="com.tflite.DeteksipenyakittanamanMn.MainActivity"
+76-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:19-82
+77            android:screenOrientation="portrait" >
+77-->D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:49:13-49
+78        </activity>
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+82            android:authorities="com.tflite.DeteksipenyakittanamanMn.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\islah\.gradle\caches\transforms-3\031312ef9c76c400e2e96c4b7719539d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\islah\.gradle\caches\transforms-3\30faeb25b441d3aaa46bf83abc6e05dd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+92                android:value="androidx.startup" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+93        </provider>
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\islah\.gradle\caches\transforms-3\603465db98dfb05df40f1d3a379f1096\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>

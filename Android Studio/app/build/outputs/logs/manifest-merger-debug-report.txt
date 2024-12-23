@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Users\islah\.gradle\caches\transforms-3\e27c125906c9a95566104545e73b51ee\transformed\jetified-viewbinding-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.gradle\caches\transforms-3\ad3331d9f571a0ca85ac7ea7245206ac\transformed\jetified-cameraview-ex-3.5.7-alpha\AndroidManifest.xml:14:1-34:12
 MERGED from [io.insert-koin:koin-android:3.1.5] C:\Users\islah\.gradle\caches\transforms-3\2c11258f8a26a34ff732642fa39faa60\transformed\jetified-koin-android-3.1.5\AndroidManifest.xml:2:1-9:12
@@ -108,12 +108,12 @@ MERGED from [dev.priyankvasa.android:cameraview-ex:3.5.7-alpha] C:\Users\islah\.
 	android:name
 		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:14:19-67
 uses-permission#android.permission.FLASHLIGHT
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:5-68
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:15:5-68
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:22-66
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:15:22-66
 application
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-55:19
-INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:5-55:19
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:17:5-51:19
+INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:17:5-51:19
 MERGED from [io.insert-koin:koin-android:3.1.5] C:\Users\islah\.gradle\caches\transforms-3\2c11258f8a26a34ff732642fa39faa60\transformed\jetified-koin-android-3.1.5\AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android:3.1.5] C:\Users\islah\.gradle\caches\transforms-3\2c11258f8a26a34ff732642fa39faa60\transformed\jetified-koin-android-3.1.5\AndroidManifest.xml:7:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\islah\.gradle\caches\transforms-3\f242d3f6431ed5618a94b02136d50f5d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -151,77 +151,75 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\islah\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\islah\.gradle\caches\transforms-3\0dcbe78152d5b46a0ffefea31048e189\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:20:9-41
 	tools:ignore
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:27:9-48
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:24:9-48
 	android:roundIcon
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:24:9-54
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:21:9-54
 	android:icon
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:23:9-40
 activity#com.tflite.DeteksipenyakittanamanMn.SplashScreen
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:28:9-39:20
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:25:9-35:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:32:13-49
-	android:label
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:28:13-49
 	android:noHistory
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:27:13-37
 	android:exported
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:26:13-36
 	android:theme
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:28:19-82
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:25:19-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.soundcloud.android.crop.CropImageActivity
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:9-42:71
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:36:9-38:71
 	android:theme
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:13-69
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:13-73
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:37:13-73
 activity#com.tflite.DeteksipenyakittanamanMn.Tentang
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:9-80
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:39:9-80
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:43:19-77
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:39:19-77
 activity#com.tflite.DeteksipenyakittanamanMn.Bantuan
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:9-80
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:9-80
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:19-77
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:40:19-77
 activity#com.tflite.DeteksipenyakittanamanMn.DeteksiDariGaleri
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:9-47:20
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:9-43:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:42:13-49
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:19-87
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:41:19-87
 activity#com.tflite.DeteksipenyakittanamanMn.Pendeteksi
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:9-51:20
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:screenOrientation
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:45:13-49
+	android:colorMode
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:46:13-47
+	android:name
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:44:19-80
+activity#com.tflite.DeteksipenyakittanamanMn.MainActivity
+ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:9-50:20
 	android:screenOrientation
 		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:49:13-49
-	android:colorMode
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:50:13-47
 	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:19-80
-activity#com.tflite.DeteksipenyakittanamanMn.MainActivity
-ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:52:9-54:20
-	android:screenOrientation
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:53:13-49
-	android:name
-		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:52:19-82
+		ADDED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml:48:19-82
 uses-sdk
 INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Kuliah\Skripskuy\Apps\Chili Disease\Android Studio\app\src\main\AndroidManifest.xml

@@ -24,7 +24,6 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.tflite.DeteksipenyakittanamanMn.SplashScreen"
             android:exported="true"
-            android:label="@string/app_name"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeSplashScreen">
