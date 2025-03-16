@@ -23,34 +23,12 @@
             android:layout_marginBottom="8dp"
             android:background="#009688"
             android:fontFamily="times"
-            android:text="Identifikasi Penyakit Tanaman"
+            android:text="SebiaKu 3.0"
             android:textAlignment="center"
             android:textColor="#F8F9FA"
             android:textSize="24sp"
             android:gravity="center_horizontal" />
 
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="16dp"
-                    android:text="Plant Diseases 3.0 "
-                    android:textColor="#000099"
-                    android:textSize="14sp" />
-            </TableRow>
-
-        </TableLayout>
 
         <TextView
             android:layout_width="match_parent"
