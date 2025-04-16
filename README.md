@@ -12,4 +12,9 @@
 4. <b>IDENTIFIKASI DARI GALERI</b> pengggunaanya dengan cara menekan tombol <b>PILIH  GAMBAR</b> lalu pilih foto yang terdapat pada galeri kemudian lakukan croping terhadap objek yang mau identifikasi
 5. Hasil dari kedua Identifikasi akan muncul dengan nilai probabilitas, serta waktu yang dibutuhkan untuk identifikasi ditampilkan dalam satuan ms
 
+## Screenshot User Interface Aplikasi
+<img src="Screenshot User Interface/splash screen.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+
+**Gambar 1.** Tampilan antarmuka pengguna pada halaman utama aplikasi.
+
 source datasets : https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset?rvi=1
