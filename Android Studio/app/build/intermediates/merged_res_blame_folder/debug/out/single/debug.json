@@ -52,6 +52,10 @@
         "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:/layout_activity_import_gallery.xml.flat",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_import_gallery.xml"
+    },
+    {
         "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\layout_activity_import_gallery.xml.flat",
         "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_import_gallery.xml"
     },
@@ -98,10 +102,6 @@
     {
         "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:/layout_activity_tentang.xml.flat",
-        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_tentang.xml"
     },
     {
         "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
