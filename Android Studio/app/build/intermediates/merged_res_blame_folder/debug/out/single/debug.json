@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.png.flat",
