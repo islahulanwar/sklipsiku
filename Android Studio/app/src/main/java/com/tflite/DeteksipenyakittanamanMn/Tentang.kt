@@ -14,7 +14,7 @@ class Tentang : AppCompatActivity() {
         setContentView(R.layout.activity_tentang)
 
         val tvLink = findViewById<TextView>(R.id.tvTelegramLink)
-        tvLink.text = Html.fromHtml("<a href='https://t.me/islahu_lanwar'>Islahul Anwar</a>")
+        tvLink.text = Html.fromHtml("<a href='https://t.me/islahul_anwar'>Islahul Anwar</a>")
         tvLink.movementMethod = LinkMovementMethod.getInstance()
 
     }
