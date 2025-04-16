@@ -12,9 +12,8 @@
 4. <b>IDENTIFIKASI DARI GALERI</b> pengggunaanya dengan cara menekan tombol <b>PILIH  GAMBAR</b> lalu pilih foto yang terdapat pada galeri kemudian lakukan croping terhadap objek yang mau identifikasi
 5. Hasil dari kedua Identifikasi akan muncul dengan nilai probabilitas, serta waktu yang dibutuhkan untuk identifikasi ditampilkan dalam satuan ms
 
-## Screenshot User Interface Aplikasi
-## Tampilan Antarmuka Pengguna Aplikasi
 
+## Tampilan User Interface Aplikasi
 <table>
   <tr>
     <td align="center" style="padding: 10px;">
