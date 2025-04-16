@@ -959,6 +959,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rounded_button
 drawable rounded_button_detection
+drawable telegram_icon
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1300,6 +1301,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id telegramLinkContainer
 id text
 id text2
 id textSpacerNoButtons
@@ -1321,6 +1323,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvTelegramLink
 id twilight
 id unchecked
 id uniform

@@ -958,6 +958,7 @@ int drawable notification_tile_bg 0x7f070075
 int drawable notify_panel_notification_icon_bg 0x7f070076
 int drawable rounded_button 0x7f070077
 int drawable rounded_button_detection 0x7f070078
+int drawable telegram_icon 0x7f07007c
 int drawable test_level_drawable 0x7f070079
 int drawable tooltip_frame_dark 0x7f07007a
 int drawable tooltip_frame_light 0x7f07007b
@@ -1299,6 +1300,7 @@ int id tag_transition_group 0x7f08014e
 int id tag_unhandled_key_event_manager 0x7f08014f
 int id tag_unhandled_key_listeners 0x7f080150
 int id tag_window_insets_animation_callback 0x7f080151
+int id telegramLinkContainer 0x7f08017f
 int id text 0x7f080152
 int id text2 0x7f080153
 int id textSpacerNoButtons 0x7f080154
@@ -1320,6 +1322,7 @@ int id transition_position 0x7f080163
 int id transition_scene_layoutid_cache 0x7f080164
 int id transition_transform 0x7f080165
 int id triangle 0x7f080166
+int id tvTelegramLink 0x7f080180
 int id twilight 0x7f080167
 int id unchecked 0x7f080168
 int id uniform 0x7f080169

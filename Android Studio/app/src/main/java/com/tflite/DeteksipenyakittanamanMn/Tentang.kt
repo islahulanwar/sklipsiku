@@ -1,8 +1,11 @@
 package com.tflite.DeteksipenyakittanamanMn
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Html
+import android.text.method.LinkMovementMethod
+import android.widget.TextView
 import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 
 class Tentang : AppCompatActivity() {
 
@@ -10,8 +13,9 @@ class Tentang : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tentang)
 
-        if (supportActionBar != null) {
-            (supportActionBar as ActionBar).title = "Tentang Aplikasi"
-        }
+        val tvLink = findViewById<TextView>(R.id.tvTelegramLink)
+        tvLink.text = Html.fromHtml("<a href='https://t.me/islahu_lanwar'>Islahul Anwar</a>")
+        tvLink.movementMethod = LinkMovementMethod.getInstance()
+
     }
 }

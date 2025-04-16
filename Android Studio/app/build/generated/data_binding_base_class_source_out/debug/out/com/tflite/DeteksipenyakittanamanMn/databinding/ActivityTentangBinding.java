@@ -4,20 +4,33 @@ package com.tflite.DeteksipenyakittanamanMn.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.tflite.DeteksipenyakittanamanMn.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityTentangBinding implements ViewBinding {
   @NonNull
   private final ScrollView rootView;
 
-  private ActivityTentangBinding(@NonNull ScrollView rootView) {
+  @NonNull
+  public final LinearLayout telegramLinkContainer;
+
+  @NonNull
+  public final TextView tvTelegramLink;
+
+  private ActivityTentangBinding(@NonNull ScrollView rootView,
+      @NonNull LinearLayout telegramLinkContainer, @NonNull TextView tvTelegramLink) {
     this.rootView = rootView;
+    this.telegramLinkContainer = telegramLinkContainer;
+    this.tvTelegramLink = tvTelegramLink;
   }
 
   @Override
@@ -43,10 +56,26 @@ public final class ActivityTentangBinding implements ViewBinding {
 
   @NonNull
   public static ActivityTentangBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.telegramLinkContainer;
+      LinearLayout telegramLinkContainer = ViewBindings.findChildViewById(rootView, id);
+      if (telegramLinkContainer == null) {
+        break missingId;
+      }
 
-    return new ActivityTentangBinding((ScrollView) rootView);
+      id = R.id.tvTelegramLink;
+      TextView tvTelegramLink = ViewBindings.findChildViewById(rootView, id);
+      if (tvTelegramLink == null) {
+        break missingId;
+      }
+
+      return new ActivityTentangBinding((ScrollView) rootView, telegramLinkContainer,
+          tvTelegramLink);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

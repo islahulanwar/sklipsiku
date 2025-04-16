@@ -1,30 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_splash_screen.xml"
-    },
-    {
         "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:/layout/activity_import_gallery.xml",
         "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_import_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:\\layout\\activity_import_gallery.xml",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_import_gallery.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:/layout/activity_bantuan.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_bantuan.xml"
     },
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:\\layout\\activity_tentang.xml",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_tentang.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:/layout/activity_tentang.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_tentang.xml"
     },
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_main.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:\\layout\\activity_bantuan.xml",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_bantuan.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:/layout/activity_pendeteksi.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_pendeteksi.xml"
     },
     {
-        "merged": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:\\layout\\activity_pendeteksi.xml",
-        "source": "C:\\Users\\islah\\.gradle\\daemon\\8.0\\com.tflite.DeteksipenyakittanamanMn.app-main-37:\\layout\\activity_pendeteksi.xml"
+        "merged": "com.tflite.DeteksipenyakittanamanMn.app-mergeDebugResources-34:/layout/activity_splash_screen.xml",
+        "source": "com.tflite.DeteksipenyakittanamanMn.app-main-37:/layout/activity_splash_screen.xml"
     }
 ]

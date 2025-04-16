@@ -15,6 +15,7 @@ drawable icon_launcher_background
 drawable logo
 drawable rounded_button
 drawable rounded_button_detection
+drawable telegram_icon
 id activity_splash_screen
 id btn_move_about
 id btn_move_detection
@@ -35,6 +36,8 @@ id process_name_bar
 id process_time_bar
 id progresBar
 id result_bar
+id telegramLinkContainer
+id tvTelegramLink
 layout activity_bantuan
 layout activity_import_gallery
 layout activity_main

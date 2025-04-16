@@ -10,6 +10,7 @@
     android:gravity="center_horizontal">
 
     <LinearLayout
+        android:id="@+id/telegramLinkContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -29,7 +30,6 @@
             android:textSize="24sp"
             android:gravity="center_horizontal" />
 
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,16 +43,27 @@
             android:textColor="@android:color/black"
             android:justificationMode="inter_word"/>
 
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="@string/me"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/telegram_icon" />
+
+            <TextView
+                android:id="@+id/tvTelegramLink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
