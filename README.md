@@ -13,8 +13,18 @@
 5. Hasil dari kedua Identifikasi akan muncul dengan nilai probabilitas, serta waktu yang dibutuhkan untuk identifikasi ditampilkan dalam satuan ms
 
 ## Screenshot User Interface Aplikasi
+**Gambar 1.** Tampilan antarmuka pengguna pada Splash Screen aplikasi.
 <img src="Screenshot User Interface/splash screen.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+**Gambar 2.** Tampilan antarmuka pengguna pada menu Home screen aplikasi.
+<img src="Screenshot User Interface/home.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+**Gambar 3.** Tampilan antarmuka pengguna pada menu Identifikasi dengan Kamera.
+<img src="Screenshot User Interface/identifikasi dengan kamera.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+**Gambar 4.** Tampilan antarmuka pengguna pada menu Identifikasi dari Galeri.
+<img src="Screenshot User Interface/identifikasi dari galeri.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+**Gambar 5.** Tampilan antarmuka pengguna pada menu Bantuan aplikasi.
+<img src="Screenshot User Interface/bantuan.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+**Gambar 6.** Tampilan antarmuka pengguna pada menu Tentang aplikasi.
+<img src="Screenshot User Interface/tentang.jpg" alt="Tampilan Splash Screen" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
 
-**Gambar 1.** Tampilan antarmuka pengguna pada halaman utama aplikasi.
 
 source datasets : https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset?rvi=1
